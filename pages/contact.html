@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/fluency/48/000000/pizza.png" type="image/x-icon">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="logo"><img src="../images/pizzalogo.png">Header Logo</div>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./pizzas.html">Our Pizza</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="contactus">
+        <div class="intro">
+            <div class="signup">
+                <h1>Contact us</p>
+                <p>We are available 24/7</p>
+                <a href="https://www.google.com/" class="introlink">Call us</a>
+            </div>
+            <div class="pizzaimage">
+                <form action="contact.php" method="get">
+                    <fieldset>
+                        <legend>Contact form</legend>
+                        <input type="text" name="name" id="name" placeholder="First name" required class="inputs">
+                        <input type="text" name="surname" id="surname" placeholder="Surname" required class="inputs">
+                        <input type="email" name="email" id="email" placeholder="Email" required class="inputs">
+                        <textarea name="comment" id="comment" cols="30" rows="10">Insert your comment...</textarea>
+                        <div class="acceptterms">
+                            <label for="accept">Accept terms and conditions</label>
+                            <input type="checkbox" name="accept" value="Yes" required class="checkbox">
+                        </div>
+                        <div>
+                            <input type="submit" value="Send" class="inputs">
+                            <input type="reset" value="Reset" class="inputs">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="location">
+        <div>
+            <iframe class="contactmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.020244508982!2d2.161031928212186!3d41.39536671293736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2ecbad723b5%3A0x1de158bfe208ca63!2sCarrer%20de%20Roger%20de%20Ll%C3%BAria%2C%2008009%20Barcelona!5e0!3m2!1ses!2ses!4v1653689266658!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright ©</p>
+    </footer>
+
+</body>
+</html>
