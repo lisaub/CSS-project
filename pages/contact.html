@@ -29,17 +29,19 @@
                 <form action="contact.php" method="get">
                     <fieldset>
                         <legend>Contact form</legend>
-                        <input type="text" name="name" id="name" placeholder="First name" required class="inputs">
-                        <input type="text" name="surname" id="surname" placeholder="Surname" required class="inputs">
-                        <input type="email" name="email" id="email" placeholder="Email" required class="inputs">
-                        <textarea name="comment" id="comment" cols="30" rows="10">Insert your comment...</textarea>
+                        <div class="inputfields">
+                            <input type="text" name="name" id="name" placeholder="First name" required class="inputs">
+                            <input type="text" name="surname" id="surname" placeholder="Surname" required class="inputs">
+                            <input type="email" name="email" id="email" placeholder="Email" required class="inputs">
+                            <textarea name="comment" id="comment" cols="30" rows="10">Insert your comment...</textarea>
+                        </div>
                         <div class="acceptterms">
                             <label for="accept">Accept terms and conditions</label>
                             <input type="checkbox" name="accept" value="Yes" required class="checkbox">
                         </div>
                         <div class="sendcomment">
-                            <input type="submit" value="Send" class="inputs">
-                            <input type="reset" value="Reset" class="inputs">
+                            <input type="submit" value="Send" class="inputsdiv">
+                            <input type="reset" value="Reset" class="inputsdiv">
                         </div>
                     </fieldset>
                 </form>
