@@ -13,13 +13,14 @@
     position: fixed;
     top: 0px;
     /* position: sticky; */
-    display: flex;
     z-index: 20;
+    display: flex;
     padding-left: 1%;
 }
 
-
-.navbar div {
+.logo {
+    align-items: center;
+    font-weight: 600;
     display: flex;
     align-content: stretch;
     flex: 3 1 auto;
@@ -28,11 +29,6 @@
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     color: #F9FAF8;
-}
-
-.logo {
-    align-items: center;
-    font-weight: 600;
 }
 
 .logo img{
@@ -64,11 +60,15 @@
 /*.....INTRO............................. */
 
 .contactus {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
+    width: 100vw;
+    display: inline-flex;
+    justify-content: space-evenly;
     justify-items: center;
     align-items: center;
+    flex-wrap: wrap;
+    background-color: #1F2937;
+    padding-bottom: 10px;
+    box-sizing: border-box;
 }
 
 .intro {
@@ -83,6 +83,19 @@
 }
 
 .signup {
+    width: 40vw;
+    padding: 5vh;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.ingredientbox {
     width: 20vw;
     padding: 5vh;
     margin: 5%;
@@ -92,6 +105,7 @@
     justify-items: center;
     align-items: center;
     flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 .signup h1 {
@@ -102,6 +116,20 @@
 }
 
 .signup p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+}
+
+.ingredientbox h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.ingredientbox p {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: white;
@@ -120,6 +148,7 @@
 
 .pizzaimage {
     margin-right: 10%;
+    box-sizing: border-box;
 }
 
 .pizzaimage img {
@@ -319,8 +348,9 @@ fieldset {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #F9FAF8;
-    width:600px;
+    width:40vw;
     padding:16px;
+    margin: 5vh;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -330,7 +360,7 @@ fieldset {
 }
 
 .inputs {
-    min-width: 320px;
+    min-width: 30vw;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     color: #1F2937;
@@ -339,12 +369,12 @@ fieldset {
     border-style: solid;
     border-width: 2px;
     border-radius: 5px;
-    padding: 2px 1%;
+    padding: 0.3vh 1%;
     margin-bottom: 1%;
 }
 
 fieldset textarea {
-    min-width: 320px;
+    min-width: 30vw;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     color: #1F2937;
@@ -353,26 +383,33 @@ fieldset textarea {
     border-style: solid;
     border-width: 2px;
     border-radius: 5px;
-    padding: 2px 1%;
+    padding: 0.3vh 1%;
     margin-bottom: 1%;
 }
 
 fieldset div {
+    min-width: 30vw;
+}
+
+.sendcomment{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    min-width: 30vw;
 }
 
 .acceptterms {
+    flex-grow: inherit;
+    min-width: 30vw;
     font-size: 11px;
     margin-bottom: 1%;
 }
 
 .checkbox {
-    margin-left: 5px;
+    margin-left: 5vh;
 }
 
 
