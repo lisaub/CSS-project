@@ -376,6 +376,7 @@ fieldset {
     border-radius: 5px;
     padding: 0.3vh 1%;
     margin-bottom: 1%;
+    box-sizing: border-box;
 }
 
 .inputsdiv {
@@ -404,6 +405,7 @@ fieldset textarea {
     border-radius: 5px;
     padding: 0.3vh 1%;
     margin-bottom: 1%;
+    box-sizing: border-box;
 }
 
 
